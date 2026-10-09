@@ -1,0 +1,55 @@
+export const posts = [
+  {
+    slug: 'boxing-gloves-explained-types-sizes-and-what-theyre-used-for',
+    title: 'Boxing Gloves Explained: Types, Sizes, and What They’re Used For',
+    date: '2025-12-08',
+    image: '/blog/boxing-gloves-explained.jpg',
+    excerpt: 'A quick guide to choosing between bag, sparring and competition gloves, and how to pick the right weight.',
+    body: [
+      'Not all boxing gloves are built for the same job. The glove you hit a heavy bag with is different from the one you spar in, and both differ from the gloves used in a sanctioned bout.',
+      '## Main types of boxing gloves',
+      '**Bag gloves** have denser, firmer padding and less wrist support so they hold up to repeated heavy-bag work. **Sparring gloves** use softer, thicker foam to protect both you and your partner and usually weigh 14–18 oz. **Competition gloves** are lighter (8–10 oz) and designed to meet event regulations. **Training gloves** sit in the middle and are the usual choice for general gym sessions.',
+      '## Choosing the right size',
+      'Glove weight is measured in ounces. As a rough guide, fighters under 60 kg usually train in 10–12 oz, mid-weights in 12–14 oz, and heavier athletes in 14–16 oz. For sparring, go up a size so there is more cushioning.',
+      '## Materials and closure',
+      'Genuine leather lasts longest, while high-grade PU is lighter on cost and easier to maintain. Hook-and-loop closures are quick to put on; lace-ups give the most secure fit for competition.',
+      'Ace Sports manufactures boxing gloves in custom colours, with your logo and branding, for retailers, gyms and clubs. Send us an enquiry to get a sample.',
+    ],
+  },
+  {
+    slug: 'the-rise-of-mma-how-it-became-a-global-phenomenon',
+    title: 'The Rise of MMA: How It Became a Global Phenomenon',
+    date: '2025-12-08',
+    image: '/blog/rise-of-mma.jpg',
+    excerpt: 'From early no-holds-barred events to a worldwide sport — a short look at how mixed martial arts grew up.',
+    body: [
+      'Mixed martial arts began as a question: which fighting style works best? Early events pitted boxers, wrestlers, judoka and kickboxers against each other with very few rules.',
+      '## From spectacle to sport',
+      'As the sport matured, athletes started cross-training in striking, wrestling and jiu-jitsu. Weight classes, time limits, rounds, gloves and a unified set of rules made the sport safer and easier for new fans to follow.',
+      '## A global audience',
+      'Today MMA is trained and watched in nearly every country. Gyms that once taught a single art now run dedicated MMA classes, and demand for quality training gear — shorts, gloves, rash guards and uniforms — keeps growing.',
+      '## Gear that keeps up',
+      'Fighters need equipment that is durable, flexible and comfortable through hard training. Ace Sports supplies MMA shorts, gloves and martial arts uniforms made to those standards.',
+    ],
+  },
+  {
+    slug: 'a-complete-guide-to-modern-mma-techniques-training-culture',
+    title: 'A Complete Guide to Modern MMA: Techniques, Training & Culture',
+    date: '2025-12-08',
+    image: '/blog/modern-mma-guide.jpg',
+    excerpt: 'The core skills every MMA athlete builds, how a training week looks, and what the culture is all about.',
+    body: [
+      'Modern MMA is a blend of three pillars: striking, grappling and wrestling. Athletes need competence in all three, and in the transitions between them.',
+      '## Striking',
+      'Boxing, Muay Thai and kickboxing supply the punches, kicks, knees and elbows. Footwork and distance management matter as much as power.',
+      '## Grappling and ground work',
+      'Brazilian jiu-jitsu and judo teach control, escapes and submissions. Many gyms drill positional sparring to build comfort on the mat.',
+      '## Wrestling',
+      'Takedowns, takedown defence and cage control decide where a fight takes place — and often who wins it.',
+      '## Training culture',
+      'A typical week mixes technical classes, conditioning, strength work and live sparring, with recovery taken seriously. The culture is built on respect, discipline and steady progress.',
+    ],
+  },
+];
+
+export const getPost = (slug) => posts.find((p) => p.slug === slug);
